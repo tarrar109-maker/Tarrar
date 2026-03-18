@@ -1,0 +1,387 @@
+<!-- AOS CSS -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:ital@0;1&family=Great+Vibes&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+
+
+
+
+<div style=" text-align:center;margin-top:40px; ">
+
+<img src="data:image/jpeg;base64,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"></div>
+<div style="text-align:center;margin-top:40px;">
+
+
+</div>
+<h1 style="font-size:50px;  text-align:center;"> A new adventure in Eid! </h1>
+<p style="font-size:20px;  text-align:center; line-height:30px;margin-botton:50px;"> Wishing you a joyous Eid filled witj love,laughter, and cherished momentswith family and friends!<br>
+May this special mday bring you peace, happiness, and blessings that last a lifetime.<br>Eid Mubarak! </p>
+<div style=" text-align:center; ">
+
+<h1 style="font-size:50px;  text-align:center;padding:15px 35px 15px 35px";>  Eid pictorial representation! </h1>
+
+<img src="https://img.pikbest.com/backgrounds/20250319/islamic-festival-eid-mubarak-wishes-with-mosque_11606891.jpg!w700wp  "style="display: block; margin-left: auto; margin-right: auto;">
+
+
+<div style=" text-align:center; "><br><br>
+<br><br>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eid-Al-fitr!</title>
+
+<!-- AOS CSS -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:ital@0;1&family=Great+Vibes&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+<style>
+:root {
+    --primary-gold: #D4AF37;
+    --soft-pink: #FADADD;
+    --bg-cream: #FDFBF7;
+    --text-dark: #4A4A4A;
+    --text-light: #777;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--bg-cream);
+    color: var(--text-dark);
+    overflow-x: hidden;
+    line-height: 1.8;
+}
+h1, h2, h3 {
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+}
+.arabic-text {
+    font-family: 'Amiri', serif;
+    font-size: 1.8rem;
+    color: var(--primary-gold);
+    margin-bottom: 10px;
+}
+
+/* Hero */
+
+.hero h2 {
+    font-size: 4rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+.hero p {
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.verse-container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    padding: 20px 40px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.3);
+    margin-top: 20px;
+}
+.verse-translation {
+    font-style: italic;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    opacity: 0.9;
+}
+section {
+    padding: 80px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+.section-title {
+    font-size: 3rem;
+    color: var(--primary-gold);
+    margin-bottom: 40px;
+    position: relative;
+    display: inline-block;
+}
+.section-title::after {
+    content: '';
+    display: block;
+    width: 60%;
+    height: 2px;
+    background: var(--soft-pink);
+    margin: 10px auto 0;
+}
+.story-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+}
+.story-text {
+    flex: 1 1 400px;
+    text-align: justify;
+    text-align-last: center;
+    font-size: 1.1rem;
+    color: var(--text-light);
+}
+.story-img {
+    flex: 1 1 300px;
+}
+.story-img img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 0px var(--soft-pink);
+}
+/* Scratch Date Reveal */
+.scratch-container {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: white;
+    border: 2px solid var(--primary-gold);
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: crosshair;
+}
+.date-reveal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--soft-pink);
+    color: var(--text-dark);
+    z-index: 1;
+}
+.date-reveal h3 {
+    font-size: 2rem;
+    color: var(--primary-gold);
+}
+#scratchCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.scratch-msg {
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+    color: var(--text-light);
+}
+/* Countdown */
+.countdown-wrapper {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    margin-top: -40px;
+}
+.timer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.time-box {
+    text-align: center;
+}
+.time-box span {
+    display: block;
+    font-size: 3rem;
+    font-family: 'Great Vibes', cursive;
+    color: var(--primary-gold);
+    line-height: 1;
+}
+.time-box label {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-light);
+}
+/* Event Details */
+.details-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+.detail-card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    border-top: 4px solid var(--primary-gold);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+.detail-card i {
+    font-size: 2rem;
+    color: var(--primary-gold);
+    margin-bottom: 15px;
+}
+.map-container {
+    margin-top: 50px;
+    height: 400px;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+footer {
+    background: var(--text-dark);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+footer p {
+    opacity: 0.7;
+    font-size: 0.9rem;
+}
+@media (max-width: 768px) {
+    .hero h2 { font-size: 3rem; }
+    .story-content { flex-direction: column-reverse; }
+    .timer { gap: 10px; }
+    .time-box span { font-size: 2rem; }
+}
+</style>
+</head>
+<body>
+
+<!-- Music Button -->
+<button class="music-btn" id="musicToggle" title="Play Music">
+    <i class="fas fa-music"></i>
+</button>
+<audio id="bgMusic" loop>
+    <source src="mysong.mp3" type="audio/mpeg">
+</audio>
+
+<!-- Hero Section -->
+<header class="hero" data-aos="fade-down">
+    <div data-aos="fade-up" data-aos-delay="500">
+        <p>A new adventure on eid!</p>
+<h2> towards  </h2>
+        <h2> Muqadas Arfan</h2>
+        <div class="verse-container" data-aos="zoom-in" data-aos-delay="700">
+             <div class="arabic-text">❤️
+            <div>"Eid Mubarak!"</div>
+            <div class="verse-translation">"Wishing you a joyous Eid filled with love, laughter, and cherished moments with family and friends! "</div>
+        </div>
+    </div>
+</header>
+
+<!--  Eid-Al-Fitr Mubarak!  -->
+<section id="story" data-aos="fade-up">
+<h2 class="section-title"> Eid-Al-Fitr Mubarak! </h2>
+<div class="story-content">
+<div class="story-text" data-aos="fade-right">
+<p>
+I convey my heartfelt Eid Mubarak wishes to you on this special ocassion. May Allah bless us all with happiness on this auspicious ocassion.
+</div>
+<div class="story-img" data-aos="fade-left">
+<img src="  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUQk6Zb7y87RoNz1ewjHNr0_XUO54B4pVi2g&s   " alt="Eid Mubarak!">
+</div>
+</div>
+</section>
+
+<!-- Scratch Date -->
+<section id="date" data-aos="fade-up">
+<h2 class="section-title">Eid surprise!</h2>
+<p class="scratch-msg">Scratch below to reveal eid surprise!</p>
+<div class="scratch-container">
+    <div class="date-reveal" data-aos="zoom-in" data-aos-delay="300">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp6nsRJp6uP9dHx3lFkE3EH_UZehaH6_bicQ&s  "/>
+    </div>
+    <canvas id="scratchCanvas" width="300" height="200"></canvas>
+</div>
+</section>
+
+
+<!-- Footer -->
+<footer data-aos="fade-up">
+<p>© 2026 Eid Mubarak to you and your family!</p>
+</footer>
+
+<!-- Scripts -->
+<script>
+// Music Toggle
+const musicBtn = document.getElementById('musicToggle');
+const bgMusic = document.getElementById('bgMusic');
+musicBtn.addEventListener('click', ()=>{
+    if(bgMusic.paused){ bgMusic.play(); musicBtn.innerHTML='<i class="fas fa-pause"></i>'; }
+    else { bgMusic.pause(); musicBtn.innerHTML='<i class="fas fa-music"></i>'; }
+});
+
+// Scratch Card
+const canvas=document.getElementById('scratchCanvas');
+const ctx=canvas.getContext('2d');
+ctx.fillStyle='#C0C0C0';
+ctx.fillRect(0,0,canvas.width,canvas.height);
+ctx.globalCompositeOperation='destination-out';
+let isDrawing=false;
+canvas.addEventListener('mousedown',()=>isDrawing=true);
+canvas.addEventListener('mouseup',()=>isDrawing=false);
+canvas.addEventListener('mouseleave',()=>isDrawing=false);
+canvas.addEventListener('mousemove',drawScratch);
+canvas.addEventListener('touchstart',(e)=>{isDrawing=true;drawScratch(e);});
+canvas.addEventListener('touchend',()=>isDrawing=false);
+canvas.addEventListener('touchmove',drawScratch);
+function getPos(evt){
+    const rect=canvas.getBoundingClientRect();
+    if(evt.touches){ return {x:evt.touches[0].clientX-rect.left, y:evt.touches[0].clientY-rect.top} }
+    return {x:evt.clientX-rect.left, y:evt.clientY-rect.top}
+}
+function drawScratch(e){ if(!isDrawing) return; e.preventDefault(); const pos=getPos(e); ctx.beginPath(); ctx.arc(pos.x,pos.y,25,0,Math.PI*2); ctx.fill(); }
+
+// Countdown Timer
+const countdownDate=new Date("March 23, 2026 18:00:00").getTime();
+const daysEl=document.getElementById('days');
+const hoursEl=document.getElementById('hours');
+const minutesEl=document.getElementById('minutes');
+const secondsEl=document.getElementById('seconds');
+function updateCountdown(){
+    const now=new Date().getTime();
+    const distance=countdownDate-now;
+    const days=Math.floor(distance/(1000*60*60*24));
+    const hours=Math.floor((distance%(1000*60*60*24))/(1000*60*60));
+    const minutes=Math.floor((distance%(1000*60*60))/(1000*60));
+    const seconds=Math.floor((distance%(1000*60))/1000);
+    daysEl.innerText=days; hoursEl.innerText=hours; minutesEl.innerText=minutes; secondsEl.innerText=seconds;
+    if(distance<0){ clearInterval(countdownInterval); daysEl.innerText=hoursEl.innerText=minutesEl.innerText=secondsEl.innerText=0; }
+}
+const countdownInterval=setInterval(updateCountdown,1000);
+updateCountdown();
+</script>
+
+<!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init({duration:1200, once:true});</script>
+</body>
+</html>
